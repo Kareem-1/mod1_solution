@@ -9,7 +9,7 @@
     $scope.msg = "";
     $scope.color = "";
     $scope.borderStyle = "";
-    $scope.doFunction = function () {
+    $scope.checkItemsNumber = function () {
         //I do not consider empty items
       var array = $scope.items.split(',');
       var number = 0;
